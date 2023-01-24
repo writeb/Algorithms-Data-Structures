@@ -1,0 +1,28 @@
+        Binary Search Tree (BST):
+Insert : Avg( O(logN) ), Worst( O(N) )
+Search : Avg( O(logN) ), Worst( O(N) )
+Traverse : Avg( O(N) ), Worst( O(N) )
+
+BST - recursive structure 
+nodes: root, left, right
+Print function : by desc(postOrder), by asc(inOrder)
+
+        Heap, Heap Sort:
+Построение heap by siftDown : Avg( O(N) )
+Insert : Avg, Best( O(N) ), Worst ( O(logN) )
+Heapify : Avg( O(N) )
+
+Сохраняется в массиве
+Заполнение идет сначала в левый child, потом в правый
+siftUp - просеивание элемента вверх
+siftDown - просеивание элемента вниз
+
+        Quick Sort:
+Avg( O(NlogN) ), Best( O(N) ), Worst( O(N*N) )
+
+        Merge Sort:
+Avg( O(NlogN) ), Best( O(NlogN) ), Worst( O(NlogN) )        
+
+        Bubble Sort:
+O(N*N)
+
